@@ -86,7 +86,7 @@ text-align: left;
 }
 /* /// */
 .contact-cols{
-    width: 100%;
+    /* width: 100%; */
 height: 167px;
 border-radius: 90px;
 background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
@@ -112,5 +112,8 @@ font-size: 24px;
 font-weight: 700;
 line-height: 29.26px;
 text-align: left;
-
+}
+/* //// */
+.second-section{
+    height: 100px;
 }
