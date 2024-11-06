@@ -29,6 +29,7 @@ opacity: 10px;
 .nav-frame{
     width: 76px;
     height: 46px;
+    margin-left: 10px;
 }
 .nav-button{
     height: 48px !important;
