@@ -139,7 +139,7 @@ text-align: left;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.5px;
+    line-height: 27.5px;
     text-align: left;    
 }
 .second-slide-img{
@@ -154,6 +154,33 @@ height: 100px;
 .second-slide-extra{
 margin-top: -20px;
 }
-.card{
-    height: 300px;
+/* //// */
+.cage{
+width: 275px;
+/* height: 511px; */
+border-radius: 40px;
+background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+gap: 20px;
+justify-content: around;
+}
+.cage-img{
+width: 190.92px;
+height: 190.92px;
+}
+.cage-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+}
+.cage-paragraph{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.63px;
+    text-align: left;
+    
 }
