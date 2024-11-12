@@ -500,6 +500,26 @@ top: 160px;
 left: 330px !important;
 width: 414px !important;
 }
+.twenty-v{
+    position: absolute;
+    left: 250px;
+    top: 0px;
+}
+.vector-seventeen{
+width: 100%;
+}
+.vector-ninteen{
+    position: absolute;
+    z-index: -8 !important;
+    top: -160px;
+    width: 100%;
+}
+.vector-eiteen{
+    position: absolute;
+    z-index: -9 !important;
+    top: 90px;
+    width: 100%;
+}
 /* ************************************************* */
     /* FOOTER SECTION START */
 /* ************************************************* */
@@ -542,4 +562,24 @@ text-decoration-skip-ink: none;
 .foo-img img{
     width: 30px;
     height: 30px;
+}
+.footer-foot{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.footer-paragraph{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
 }
