@@ -99,22 +99,31 @@ background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0
 }
 .contact{
 height: 100%;
-gap: 20px;
+padding: 30px !important;
+/* gap: 10px; */
 }
 .contact-img{
-    width: 70px;
-height: 70px;
+    width: 60px;
+height: 60px;
 /* padding: 5.83px 14.58px 2.92px 14.58px; */
 }
+.contact-img-o{
+    width: 60px;
+height: 60px;
+/* padding: 5.83px 14.58px 2.92px 14.58px; */
+}
+.contact-content{
+    margin-left: 10px;
+}
 .contact-paragraph{
-font-size: 14px;
+font-size: 12px;
 font-weight: 400;
 line-height: 17.07px;
 text-align: left;
 /* background-color: aqua; */
 }
 .contact-heading{
-font-size: 24px;
+font-size: 22px;
 font-weight: 700;
 line-height: 29.26px;
 text-align: left;
@@ -463,6 +472,7 @@ right: 940px;
     width: 1px;
     height: 116.5px;
     position: absolute;
+    bottom: 20px;
     left: 390px;
 /* background-color: aqua; */
 /* z-index: 1 !important; */
@@ -475,6 +485,7 @@ right: 940px;
     width: 1px;
     height: 116.5px;
     position: absolute;
+    bottom: 20px;
     left: 360px;
 }
 .vector-seven{
