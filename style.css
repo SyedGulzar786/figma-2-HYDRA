@@ -84,6 +84,9 @@ opacity: 10px;
 line-height: 26.5px !important;
 text-align: left;
 }
+.gradient-font{
+    color: #8176AF;
+}
 /* /// */
 .contact-cols{
     /* width: 100%; */
@@ -153,7 +156,7 @@ height: 557px;
 .second-slide-icon{
 margin-left: 20px;    
 width: 228px;
-height: 100px;
+height: 100%;
 }
 .second-slide-extra{
 /* margin-top: -10px; */
@@ -276,7 +279,7 @@ border-radius: 50%;
 .fifth-section-icon{
     margin-left: 20px;    
     width: 180px;
-    height: 100px;
+    height: 100%;
 }
 /* //// */
 .eclipse-10{
@@ -303,16 +306,23 @@ margin-top: 100px !important;
 margin-bottom: 100px !important;
 }
 .eclipse-paragraph{
-font-size: 24px;
+font-size: 23px;
 font-weight: 700;
-line-height: 29.26px;
+line-height: 32.26px;
 text-align: left;
-margin-left: 10px !important;
+margin-left: 8px !important;
 }
 .eclipse-content{
 margin-top: 20px !important;
 margin-left: 30px !important;
-padding-right: 20px !important;
+
+}
+.e-p-0{
+    padding-right: 26px !important;  
+}
+.e-img{
+    margin-top: 5px;
+    margin-left: 8px !important;
 }
 .eclipse-img{
     width: 27.92px;
@@ -399,6 +409,9 @@ resize: none;
     justify-content: center;
     width: 100%;
     gap: 10px;
+}
+.formth-input::placeholder{
+    color: #FFFFFF;
 }
 /* /// */
 
